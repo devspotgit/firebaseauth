@@ -1,0 +1,139 @@
+
+/* -------------------------------- global style --------------------------------- */
+
+:root{
+    --primary:hsl(300, 100%, 20%);
+    --black:hsl(0, 0%, 0%);
+    --grey:hsl(0, 0%, 20%);
+    --grey-light:hsl(0, 0%, 40%);
+    --grey-lighter:hsl(0, 0%, 60%);
+    --grey-lighter-plus:hsl(0, 0%, 80%);
+    --white:hsl(0, 0%, 100%);
+}
+
+*{
+    padding:0;
+    margin:0;
+}
+
+button{
+    border-width:0;
+    background-color:transparent;
+    cursor:pointer;
+    font-size:inherit;
+    font-family:inherit;
+}
+
+input{
+    border-width:0;
+    font-size:inherit;
+    font-family:inherit;
+}
+
+#app{
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+/* -------------------------------- form style --------------------------------- */
+
+.form{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:2px 2px 10px;
+    border:1px solid var(--grey-lighter-plus);
+    background-color:var(--grey-lighter);
+}
+
+.form-field{
+    padding:10px;
+    border-radius:5px;
+    color:var(--primary);
+}
+
+.form-field::placeholder{
+    color:var(--primary)
+}
+
+.title{
+    align-self:center;
+    color:var(--primary);
+    font-weight:bold;
+}
+
+.media-sign{
+    display:flex;
+    gap:10px;
+    align-items:center;
+}
+
+.media-sign-side{
+    height:1px;
+    background-color:var(--white);
+    flex-grow:1;
+}
+
+.media-sign-title{
+    color:var(--white);
+}
+
+.submit{
+    padding:10px;
+    border-radius:5px;
+    background-color:var(--primary);
+    color:var(--white);
+}
+
+.media-sign-options{
+    display:flex;
+    gap:10px;
+}
+
+.media-sign-item{
+    padding:20px;
+    border-radius:5px;
+    flex-grow:1;
+    background-color:var(--grey-lighter-plus);
+    color:var(--primary);
+}
+
+.sign-action{
+    color:var(--white);
+}
+
+.error{
+    line-height:1.6;
+    text-align:center;
+    color:rgb(189, 70, 70);
+    font-size:0.8rem;
+}
+
+/* -------------------------------- home style --------------------------------- */
+
+.home{
+    width:700px;
+    display:flex;
+    flex-direction:column;
+    gap:40px;
+}
+
+.name{
+    font-size:2rem;
+    font-weight:bold;
+    text-align:center;
+}
+
+.signout{
+    padding:20px;
+    color:var(--white);
+    border-radius:5px;
+    background-color:rgb(189, 70, 70);
+    align-self:center;
+}
+
