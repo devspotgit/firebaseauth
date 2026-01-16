@@ -6,13 +6,13 @@ The app is implementing **Email and Password** based authentication, and third p
 
 The app is using **Vite** as modules bundler to allow firebase to run on the client. 
 
-The app is using only **Vanilla Js**, we refrained on using any framework for the sake on focusing only learning how to handle firebase authentication for web app.
+The app is using only **Vanilla Js**, I refrained from using any framework for the sake on focusing only learning how to handle firebase authentication for web app.
 
 This project can be used as base for any web app that relies on firebase service.
 
-For a more detail explanation on how to start with firebase auth, please visit the link to our blog below.
+For a more detail explanation on how to start with firebase auth, please visit the link to my blog below.
 
-[ Getting started with Firebase auth ]()
+[ Getting started with Firebase auth ](https://blog.devspot.ca/posts/firebase-auth)
 
 
 
